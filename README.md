@@ -97,3 +97,17 @@ donc pas de bandeau de consentement RGPD à prévoir.
 - Horaires affichés : 24h/24 · 7j/7 (page Contact).
 - Couleurs : variables `--blue`, `--navy`… en haut de `style.css`.
 - Liens du pied de page (Mentions Légales, CGU…).
+
+## Cache du navigateur
+
+Les liens vers `style.css` et `script.js` portent un numéro de version
+(`?v=2`). **Après chaque modification du CSS ou du JS, incrémentez ce numéro**
+dans les 5 pages HTML :
+
+```
+sed -i 's#?v=2#?v=3#g' *.html
+```
+
+Sans cela, les visiteurs déjà venus continuent de voir l'ancienne version
+pendant des heures, GitHub Pages et les navigateurs mettant les fichiers
+en cache.
