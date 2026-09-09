@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="64 64 384 384" width="384" height="384" role="img" aria-label="MEL ENTRETIEN">
+  <title>MEL ENTRETIEN</title>
+
+  <!-- Anneau extérieur -->
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#1B4B9E" stroke-width="13" />
+
+  <!-- Le « P » : bol arrondi + jambage -->
+  <path fill="#1B4B9E" d="M217 118
+    H316
+    C347 118, 371 145, 371 179
+    C371 213, 347 240, 316 240
+    H306
+    V330
+    H256
+    V240
+    H217
+    Z" />
+
+  <!-- La goutte, posée par-dessus le P -->
+  <path fill="#1B4B9E" d="M217 118
+    C240 150, 292 216, 292 258
+    A75 75 0 0 1 142 258
+    C142 216, 194 150, 217 118
+    Z" />
+
+  <!-- Séparation blanche entre la goutte et le P -->
+  <path fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" d="M217 118
+    C240 150, 292 216, 292 258
+    A75 75 0 0 1 256 322" />
+
+  <!-- Reflet en croissant dans la goutte -->
+  <path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"
+        d="M195 192 C168 232, 166 285, 202 316" />
+
+  <!-- Trois éclats de propreté dans le bol du P -->
+  <g fill="#FFFFFF">
+    <path d="M290 143 C290 155, 293 158, 305 158 C293 158, 290 161, 290 173 C290 161, 287 158, 275 158 C287 158, 290 155, 290 143 Z" />
+    <path d="M338 143 C338 155, 341 158, 353 158 C341 158, 338 161, 338 173 C338 161, 335 158, 323 158 C335 158, 338 155, 338 143 Z" />
+    <path d="M318 170 C318 191, 323 196, 344 196 C323 196, 318 201, 318 222 C318 201, 313 196, 292 196 C313 196, 318 191, 318 170 Z" />
+  </g>
+</svg>
