@@ -833,6 +833,10 @@ a { color: inherit; text-decoration: none; }
   background-image: url("service-commerces.jpg"),
     linear-gradient(135deg, #ecdfd0 0%, #d8c3a9 55%, #bfa88c 100%);
 }
+.svc-photo--debarras {
+  background-image: url("service-debarras.jpg"),
+    linear-gradient(135deg, #d8e0d4 0%, #b9c6b2 55%, #97a88f 100%);
+}
 
 .svc-ico {
   display: grid;

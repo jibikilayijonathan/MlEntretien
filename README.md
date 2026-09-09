@@ -29,6 +29,7 @@ Pour le rendu final, déposez ces fichiers à la racine du dossier :
 | `service-particuliers.jpg` | ✅ **Fourni** — montage avant/après d'un sous-sol, carré 900×900 |
 | `service-bureaux.jpg`      | ✅ **Fourni** — deux agents en open space, 1200×900 |
 | `service-commerces.jpg`    | ✅ **Fourni** — autolaveuse en surface de vente, 1200×900 |
+| `service-debarras.jpg`     | ✅ **Fourni** — deux agents évacuant des encombrants d'un garage, 1200×896 |
 | `local-equipe.jpg`         | ✅ **Fourni** — l'équipe et le véhicule (accueil, « Ancrage local »), 1200×900 |
 | `about-engagement.jpg`     | ✅ **Fourni** — agent à la raclette sur cloison vitrée, 1150×920 |
 | `gal-bureaux.jpg`          | ✅ **Fourni** — équipe en intervention, open space, 1600×900 |
